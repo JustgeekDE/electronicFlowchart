@@ -668,7 +668,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="CON1" pad="P$6"/>
 <contactref element="JP3" pad="2"/>
-<contactref element="ACTIVE" pad="C"/>
 <contactref element="CLK_IN" pad="C"/>
 <contactref element="CLK_OUT" pad="C"/>
 <contactref element="A" pad="C"/>
@@ -714,13 +713,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.59" y1="25.654" x2="21.336" y2="25.908" width="0.4064" layer="1"/>
 <wire x1="21.336" y1="25.908" x2="21.59" y2="25.654" width="0.4064" layer="1"/>
 <wire x1="21.59" y1="25.654" x2="21.844" y2="25.654" width="0.4064" layer="1"/>
-<wire x1="22.606" y1="21.116" x2="22.386" y2="21.336" width="0.4064" layer="1"/>
 <wire x1="22.386" y1="21.336" x2="21.59" y2="21.336" width="0.4064" layer="1"/>
 <wire x1="19.05" y1="4.86" x2="19.524" y2="5.334" width="0.4064" layer="1"/>
 <wire x1="19.524" y1="5.334" x2="21.59" y2="5.334" width="0.4064" layer="1"/>
 <wire x1="39.37" y1="4.86" x2="38.896" y2="5.334" width="0.4064" layer="1"/>
 <wire x1="38.896" y1="5.334" x2="21.59" y2="5.334" width="0.4064" layer="1"/>
-<wire x1="21.59" y1="8.382" x2="21.59" y2="12.065" width="0" layer="19" extent="1-16"/>
+<contactref element="ACTIVE" pad="C"/>
+<wire x1="22.386" y1="21.336" x2="22.606" y2="21.116" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="12.065" x2="21.59" y2="8.382" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RESET">
 <contactref element="IC1" pad="4"/>
